@@ -50,7 +50,7 @@ export async function scrapeAmazonProduct(url) {
         }
 
         console.log('HTML content length:', html.length);
-        fs.writeFileSync('html.html', html, 'utf8');
+        // fs.writeFileSync('html.html', html, 'utf8');
         return html;
 
     } catch (error) {
